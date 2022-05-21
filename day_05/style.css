@@ -14,6 +14,23 @@ body {
 	margin: 0;
 }
 
+.nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 1rem;
+}
+
+.nav-link:link, .nav-link:visited {
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+}
+
+.nav-link:hover{
+	color: darkgray;
+}
+
 .bg {
 	background: url('https://images.unsplash.com/photo-1473621038790-b778b4750efe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80')
 		no-repeat center center/cover;

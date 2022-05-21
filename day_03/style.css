@@ -12,6 +12,23 @@ body {
 	color: #222;
 }
 
+.nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 1rem;
+}
+
+.nav-link:link, .nav-link:visited {
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+}
+
+.nav-link:hover{
+	color: darkgray;
+}
+
 .container {
 	background-color: #fafafa;
 	transform-origin: top left;

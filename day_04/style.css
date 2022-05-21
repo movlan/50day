@@ -15,6 +15,23 @@ body {
 	margin: 0;
 }
 
+.nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 1rem;
+}
+
+.nav-link:link, .nav-link:visited {
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+}
+
+.nav-link:hover{
+	color: darkgray;
+}
+
 .search {
 	position: relative;
 	height: 50px;

@@ -15,6 +15,23 @@ body {
 	background-color: #f1f1f1;
 }
 
+.nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 1rem;
+}
+
+.nav-link:link, .nav-link:visited {
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+}
+
+.nav-link:hover{
+	color: darkgray;
+}
+
 .container {
 	display: flex;
 	width: 90vw;
